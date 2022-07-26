@@ -19,6 +19,8 @@ jobs:
         shell: python
   run-windows-commands:
     runs-on: windows-latest
+    # needs is used whenever you want a job to depend on another or run before another. Its an array 
+    # and you must use the name of the job initilized. 
     needs: ["run-shell-command"]
     steps:
       - name: Directory Powershell
