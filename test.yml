@@ -1,0 +1,32 @@
+name: Gus
+age: 33
+address: "unknown"
+active: true
+key:
+  key: value
+  key2: 33
+  key3:
+    key: value
+    key2: another
+    key3:
+      key: value
+      key2: value
+jsonObject: { key: value, key2: 33, key3: {key: value, key2: value }}
+array:
+    - item1
+    - item2
+    - { key: value }
+JsonArray: [ item1, item2 ]
+objectArray:
+    - key: value
+      key2: value2
+    - key: value
+      key2: value2
+longTextNoNewLines: >
+    dnfkjsdsdf sdfnosdnf 
+    osidnfisdf sdnfjksdf 
+    osdnfkjnsdkf sjdnfkjsndf
+longTextNewLines: |
+    dnfkjsdsdf sdfnosdnf 
+    osidnfisdf sdnfjksdf 
+    osdnfkjnsdkf sjdnfkjsndf
