@@ -20,7 +20,7 @@ jobs:
       # fail-fast: true # jobs will stop if one fails 
     runs-on: ${{ matrix.os }}
     env:
-      IS_UBUNTU_8: ${{ matrix.node_version }}
+      IS_UBUNTU_8: ${{ matrix.is_ubuntu_8 }}
     steps:
       - name: Log node version
         run: node -v
